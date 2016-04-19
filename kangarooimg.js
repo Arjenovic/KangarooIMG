@@ -1,6 +1,4 @@
 //this is how you define a class in javascript
-
-
 var Kangaroo = function (firstName, divName, parentName) {
 	this.divName = divName;
 
@@ -32,17 +30,6 @@ var Kangaroo = function (firstName, divName, parentName) {
 	};
 };
 	//To create a method within the class Kangaroo use 'prototype'
-	Kangaroo.prototype.speak = function(){
-		console.log(defaultSettings.greeting + ", I am " + this.firstName);
-	}
-
-	Kangaroo.prototype.speakOnClick = function(){
-		var that = this;
-		document.getElementById('Kangaroo' + this.firstName).onclick = function() { 
-			alert("Hoi, ik ben " + that.firstName + "!"); 
-		};
-	}
-
 	Kangaroo.prototype.createAvatar = function(width, height, source){
 		nieuwKangaroo = document.createElement('IMG');
 		nieuwKangaroo.style.width = width + 'px';
@@ -53,6 +40,17 @@ var Kangaroo = function (firstName, divName, parentName) {
 		document.getElementById(this.divName).appendChild(nieuwKangaroo);
 	}
 
+	Kangaroo.prototype.speak = function(){
+		console.log(defaultSettings.greeting + ", I am " + this.firstName);
+	}
+
+	Kangaroo.prototype.speakOnClick = function(){
+		var that = this;
+		document.getElementById('Kangaroo' + this.firstName).onclick = function() { 
+			alert("Hoi, ik ben " + that.firstName + "!"); 
+		};
+	}
+	
 	Kangaroo.prototype.bounce = function(){
 		elementje = document.getElementById("Kangaroo" + this.firstName);
 		elementje.className = "bounce";
