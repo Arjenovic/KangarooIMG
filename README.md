@@ -17,7 +17,7 @@ Next, you use javascript to call the one and only class in the framework, named 
 
 	var kangaroo1 = new Kangaroo('Patrick', 'KangarooHuis');
 
-**Kangaroo Class Paramaters**
+**Kangaroo Class Parameters**
 
 | **Parameters** | **Type** | **Required**                              | **Description**   |
 | -------------- | -------- | ----------------------------------------- | ----------------- |
@@ -29,17 +29,24 @@ Next, you use javascript to call the one and only class in the framework, named 
 Methods:
 --------------
 **createAvatar()**
+
 | **Parameters** | **Type** | **Required** | **Description** |
-| -------------- |--------- | ------------ | --------------- |
+| -------------- | -------- | ------------ | --------------- |
 | *width*        | Int      | Yes          | Set width of image. |
 | *height        | Int      | Yes          | Set height of image. |
 | *source		 | String   | Yes          | Set url or file location of image. |
 
+
 **speak()** (Requires createAvatar() method first.)
+
 Displays a console log of your Kangaroo saying hello.
 
+
 **speakOnClick()** (Requires createAvatar() method first.)
+
 Displays an alert on leftclick of your Kangaroo saying hello.
 
+
 **bounce()** (Requires createAvatar() method first.)
+
 Makes your Kangaroo div element bounce up and down. 
