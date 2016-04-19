@@ -30,6 +30,8 @@ Methods:
 --------------
 + **createAvatar()**
 
+Creates an element with ID value "Kangaroo" + firstName with your image, height and width of choice.
+
 | **Parameters** | **Type** | **Required** | **Description** |
 | -------------- | -------- | ------------ | --------------- |
 | *width*        | Int      | Yes          | Set width of image. |
@@ -37,14 +39,17 @@ Methods:
 | *source*		 | String   | Yes          | Set url or file location of image. |
 
 
+
 + **speak()** (Requires createAvatar() method first.)
 
 Displays a console log of your Kangaroo saying hello.
 
 
+
 + **speakOnClick()** (Requires createAvatar() method first.)
 
-Displays an alert on leftclick of your Kangaroo saying hello.
+Displays an alert popup message on leftclick of your Kangaroo saying hello.
+
 
 
 + **bounce()** (Requires createAvatar() method first.)
