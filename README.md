@@ -3,8 +3,8 @@ Javascript framework to create bouncing images on your website, quickly and easi
 
 
 Demo:
-<http://arjenovic.github.io/demo_KangarooIMG/>
 --------------
+<http://arjenovic.github.io/demo_KangarooIMG/example.html>
 
 
 Setup:
