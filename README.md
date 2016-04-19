@@ -18,11 +18,12 @@ Next, you use javascript to call the one and only class in the framework, named 
 	var kangaroo1 = new Kangaroo('Patrick', 'KangarooHuis');
 
 **Kangaroo Class**
+
 | **Parameters** | **Type** | **Default Value** | **Description** |
-|----------------|----------|-------------------|-----------------|
-|   firstName    | String   |                   |                 |
-|   divName      | String   |                   |                 |
-|  parentName    | String   |                   |                 |
+| -------------- | -------- | ----------------- | --------------- |
+|   *firstName*  | String   |                   |                 |
+|   *divName*    | String   |                   |                 |
+|  *parentName*  | String   |                   |                 |
 
 Methods:
 --------------
